@@ -1,0 +1,54 @@
+
+.btn{
+    background-color: silver;
+}
+.offcanvas {
+    width: 100px !important;
+}
+.offcanvas.offcanvas-start {
+    transform:none;
+    visibility: visible !important;
+}
+.offcanvas.show{
+    width: 300px !important;
+}
+.offcanvas-body{
+    overflow: hidden !important;
+}
+span{
+    display: none;
+}
+
+.show + #main{
+    margin-left: 300px;
+}
+#main{
+    margin-left: 100px;
+    transition:.3s ease-in-out;
+}
+.show .list-group-item span{
+display: inline-block;
+}
+.modal-backdrop{
+    display: none;
+}
+
+.wrapper{
+    padding: 25px;
+}
+.modal{
+    padding: 0px;
+}
+@media only screen and (max-width: 800px){
+    #no-more-tables tbody,#no-more-tables tr,#no-more-tables td{
+        display: block;
+        border: 1px solid;
+    }
+    #no-more-tables tr{
+        margin-bottom: 20px;
+    }
+    
+    #no-more-tables thead th{
+        display: block;
+    }
+}
